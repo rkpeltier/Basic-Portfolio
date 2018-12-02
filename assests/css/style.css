@@ -1,0 +1,47 @@
+/* Begin Style for Index.html */
+
+body {
+    background-color: gray
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.big-box {
+    margin-left: 200px;
+    padding: 0;
+    width: 960px;
+    background-color: white;
+}
+
+#profile-pic {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#fixed-name {
+    margin-left: 200px;
+    padding: 0;
+    width: 250px;
+    text-align: center;
+    background-color: mediumaquamarine;
+}
+
+/* Begin Contact Page CSS */
+
+#form-1 {
+    margin-left: 200px;
+    padding: 50px;
+    width: 960px;
+    background-color: white;
+}
+
+#send-button {
+    position: relative;
+    top: 200px;
+}
