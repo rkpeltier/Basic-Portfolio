@@ -1,19 +1,54 @@
-/* Begin Style for Index.html */
+/* Universal */
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: gray
 }
 
-#header {
-    margin: 0;
+#fixed-name {
+    position: relative;
+    margin-left: 200px;
     padding: 0;
-    width: 100%;
-    background-color: white;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mediumaquamarine;
 }
+
+#header-links {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+    background: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#one {
+    float: right;
+    padding: 10px;
+}
+
+#two {
+    float: right;
+    padding: 10px;
+}
+
+#three {
+    float: right;
+    padding: 10px;
+}
+
+/* Begin About page CSS */
+
 
 .big-box {
     margin-left: 200px;
-    padding: 0;
+    padding: 25px;
     width: 960px;
     background-color: white;
 }
@@ -24,12 +59,18 @@ body {
     height: 100px;
 }
 
-#fixed-name {
-    margin-left: 200px;
+#about-me {
+    position: relative;
+    top: -25px;
+    margin: 0;
     padding: 0;
-    width: 250px;
-    text-align: center;
-    background-color: mediumaquamarine;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
+#description {
+
 }
 
 /* Begin Contact Page CSS */
