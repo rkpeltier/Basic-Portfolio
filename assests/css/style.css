@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: gray
+    background-color: lightgray;
 }
 
 #my-name {
@@ -28,6 +28,8 @@ body {
     padding: 10px;
     width: 100%;
     background: white;
+    border-bottom: 3px;
+    border-bottom-color: gray;
 }
 
 .topnav {
@@ -71,7 +73,7 @@ body {
 
 #contact {
     margin: auto;
-    padding: 10px;
+    padding: 10px 0px 40px;
     font-size: 25pt;
     font-weight: bold;
     color: mediumaquamarine;
@@ -79,7 +81,7 @@ body {
 
 #form-1 {
     margin: auto;
-    padding: 50px;
+    padding: 15px 15px 65px 10px;
     width: 960px;
     background-color: white;
 }
@@ -88,7 +90,23 @@ body {
     width: 100%;
 }
 
+#message {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40px;
+}
 #send-button {
     position: relative;
-    top: 200px;
+    top: 215px;
+    padding: 10px 15px;
+    font-size: 16pt;
+    background-color: mediumaquamarine;
+    border: none;
+    color: white;
+}
+
+#text-area {
+    position: relative;
+    bottom: 10px;
 }
