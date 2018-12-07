@@ -3,25 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     </head>
     <body>
     <div id="header-links">
-        <ul>
-            <li id="one"><a href="index.html">About</a></li>
-            <li id="two"><a href="portfolio.html">Portfolio</a></li>
-            <li id="three"><a href="contact.html">Contact</a></li>
-        </ul>
-        <div id="fixed-name">
-            <h1>Rebecca Peltier</h1>
+        <div class="topnav">
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div id="my-name">
+            <h1 id="rp">Rebecca Peltier</h1>
         </div>
     </div>
         <div id="form-1">
+            <h1 id="contact">Contact</h1>
             <form id="contact-form">
                 Name:<br>
-                <input type="text" name="name"><br>
+                <input class="input" type="text" name="name"><br>
                 Email:<br>
-                <input type="text" name="mail"><br>
+                <input class="input" type="text" name="mail"><br>
                 Message:<br>
                 <input id="send-button" type="submit" value="Send">
             </form>
