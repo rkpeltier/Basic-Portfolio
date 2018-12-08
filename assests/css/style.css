@@ -62,6 +62,22 @@ a:active {
     color: darkmagenta;
 }
 
+#footer {
+    margin: auto;
+    padding: 15px;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-top-width: 10px;
+    border-top-color: mediumaquamarine;
+}
+
 
 /* Begin About page CSS */
 
@@ -71,25 +87,30 @@ a:active {
     padding: 25px;
     width: 960px;
     background-color: white;
+    clear: left;
+    overflow: auto;
 }
 
 #profile-pic {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 0px 10px;
 }
 
 #about-me {
-    position: relative;
-    top: -25px;
-    margin: 0;
-    padding: 0;
-    font-size: 20pt;
-    font-family: 'Times New Roman', Times, serif;
-    color: darkblue;
+    margin: auto;
+    padding: 10px 0px 40px;
+    font-size: 25pt;
+    font-weight: bold;
+    color: mediumaquamarine;
 }
 
 #description {
+    margin: 0;
+    padding: 10px;
+    color: navy;
+    font-family: 'PT Sans Narrow', sans-serif;
 
 }
 
